@@ -1,0 +1,20 @@
+.places__paragraph {
+  margin: 0 auto 12px 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  color: #ffffff;
+  grid-area: paragrah;
+}
+
+.places__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px), screen and (max-device-width: 767px) {
+  .places__paragraph {
+    margin: 0 16px 25px 16px;
+  }
+}

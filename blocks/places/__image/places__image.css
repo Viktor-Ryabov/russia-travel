@@ -1,0 +1,29 @@
+.places__image {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 460px;
+  grid-area: image;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px),
+  screen and (max-device-width: 1279px) and (min-device-width: 1024px) {
+  .places__image {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px),
+  screen and (max-device-width: 1023px) and (min-device-width: 768px) {
+  .places__image {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 767px), screen and (max-device-width: 767px) {
+  .places__image {
+    max-width: 100%;
+    margin: 0 0 32px 0;
+  }
+}
