@@ -1,5 +1,6 @@
 .places {
-  margin: 0 0 66px 0;
+  margin: 0;
+  margin-bottom: 92px;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -7,3 +8,17 @@
   align-items: center;
   background-color: #2a2c2f;
 }
+
+@media screen and (max-width: 1023px) and (min-width: 768px),
+  screen and (max-device-width: 1023px) and (min-device-width: 768px) {
+  .places{
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 767px), screen and (max-device-width: 767px) {
+  .places{
+    margin-bottom: 66px;
+  }
+}
+
