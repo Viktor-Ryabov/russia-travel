@@ -13,7 +13,7 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 767px), screen and (max-device-width: 767px) {
+@media screen and (max-width: 768px), screen and (max-device-width: 768px) {
   .places__paragraph {
     margin: 0 16px 25px 16px;
     font-size: 16px;

@@ -7,6 +7,20 @@
   list-style-type: none;
 }
 
+@media screen and (max-width: 1279px) and (min-width: 1024px),
+  screen and (max-device-width: 1279px) and (min-device-width: 1024px) {
+  .footer__list{
+    margin: 0 0 48px 24px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px),
+  screen and (max-device-width: 1023px) and (min-device-width: 768px) {
+  .footer__list{
+    margin: 0 0 24px 24px;
+  }
+}
+
 @media screen and (max-width: 767px) and (min-width: 50px) {
   .footer__list {
     margin: 0 0 24px 0;
