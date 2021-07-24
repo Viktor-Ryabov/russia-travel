@@ -37,7 +37,7 @@
   screen and (max-device-width: 1023px) and (min-device-width: 768px) {
   .cover {
     min-width: 100%;
-    min-height: 460px;
+    min-height: 480px;
     margin: 0 0 88px 0;
   }
 }
